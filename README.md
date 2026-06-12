@@ -2,17 +2,16 @@
 
 A real-time multiplayer Caribbean-style domino game built with Flutter and backed by Supabase + Vercel serverless API. Features 4-player team matches (2v2), AI bot opponents, room-based matchmaking, and custom-rendered domino tiles with animations.
 
-## Screenshots
+## Demo
 
-<p align="center">
-  <img src="screenshots/01_lobby.png" width="250" alt="Lobby Screen" />
-  <img src="screenshots/02_waiting.png" width="250" alt="Room Setup" />
-  <img src="screenshots/03_gameplay.png" width="250" alt="Gameplay" />
-</p>
+Real captures from the iOS Simulator (no mockups), produced by an integration-test driver. See [FLOW.md](FLOW.md) for how they are generated.
 
-| Lobby | Room Setup | Gameplay |
+| Lobby | Gameplay | Results |
 |:---:|:---:|:---:|
-| Create or join rooms, quick play vs AI | Enter name, browse available rooms | Board, opponent hands, turn indicator, score tracking |
+| ![Lobby](screenshots/01-lobby.png) | ![Gameplay](screenshots/02-gameplay.png) | ![Results](screenshots/03-results.png) |
+| Create or join rooms, quick play vs AI | Board chain, opponent hands, turn indicator, live scores | Trophy, team scoreboard, per-player pip summary |
+
+![Demo](screenshots/demo.gif)
 
 ## Tech Stack
 
